@@ -15,4 +15,6 @@ function binarySearch(arr, target) {
 }
 
 const arr = [0, 1, 2, 4, 7, 8, 9];
-console.log(binarySearch(arr, 9));
+console.log(binarySearch(arr, 9)); // 6
+console.log(binarySearch(arr, 1)); // 1
+console.log(binarySearch(arr, 5)); // -1
